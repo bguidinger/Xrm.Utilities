@@ -1,7 +1,7 @@
 ﻿namespace BGuidinger.Tests
 {
     using Base;
-    using Utilities.VersionMonitor;
+    using Utilities.VersionChecker;
     using Microsoft.Xrm.Tooling.Connector;
     using System.Collections.Generic;
 

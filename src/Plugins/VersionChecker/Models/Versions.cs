@@ -1,4 +1,4 @@
-﻿namespace BGuidinger.Utilities.VersionMonitor
+﻿namespace BGuidinger.Utilities.VersionChecker
 {
     using System;
 

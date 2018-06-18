@@ -1,7 +1,7 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "Version Monitor",
+    "title": "Version Checker",
     "description": "",
     "version": "1.0"
   },

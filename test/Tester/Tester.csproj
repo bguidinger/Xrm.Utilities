@@ -88,9 +88,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Plugins\VersionMonitor\VersionMonitor.csproj">
+    <ProjectReference Include="..\..\src\Plugins\VersionChecker\VersionChecker.csproj">
       <Project>{c4f4b1df-0db6-4ae0-a510-5e5c52a4bf48}</Project>
-      <Name>VersionMonitor</Name>
+      <Name>VersionChecker</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

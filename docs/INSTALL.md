@@ -4,13 +4,13 @@ First, download the files from the [Releases](../../../releases).
 ## Dynamics 365
 1. Go to Settings > Solutions, click Import.
  
-2. Follow the prompts to import the `VersionMonitor_X_X_X_X_managed.zip` file.
+2. Follow the prompts to import the `VersionChecker_X_X_X_X_managed.zip` file.
 
 3. After the solution is imported, open it up.
 
 4. Go to the Configuration page, set the username/password, and click Submit.
 
-   ![](./VersionMonitor_Solution_Config.png "Solution Configuration")
+   ![](./VersionChecker_Solution_Config.png "Solution Configuration")
 
 5. Open the `Check Version` process and activate it.
 
