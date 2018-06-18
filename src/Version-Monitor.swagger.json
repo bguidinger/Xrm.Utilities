@@ -1,0 +1,78 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Version Monitor",
+    "description": "",
+    "version": "1.0"
+  },
+  "host": "organization.crm.dynamics.com",
+  "basePath": "/api/data/v9.0/",
+  "schemes": [
+    "https"
+  ],
+  "consumes": [],
+  "produces": [],
+  "paths": {
+    "/bg_CheckVersion": {
+      "post": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "Application": {
+                  "type": "string",
+                  "description": "Version of the application",
+                  "x-ms-summary": "Application",
+                  "title": "Application",
+                  "x-ms-visibility": ""
+                },
+                "Database": {
+                  "type": "string",
+                  "description": "Version of the database",
+                  "x-ms-summary": "Database",
+                  "title": "Database",
+                  "x-ms-visibility": ""
+                },
+                "IsUpdated": {
+                  "type": "boolean",
+                  "description": "Has the version been updated?",
+                  "x-ms-summary": "IsUpdated",
+                  "title": "Is Updated",
+                  "x-ms-visibility": "",
+                  "enum": [
+                    "",
+                    "true",
+                    "false"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "summary": "Check Version",
+        "operationId": "/POST/CheckVersion",
+        "parameters": []
+      }
+    }
+  },
+  "definitions": {},
+  "parameters": {},
+  "responses": {},
+  "securityDefinitions": {
+    "oauth2_auth": {
+      "type": "oauth2",
+      "flow": "accessCode",
+      "authorizationUrl": "https://login.windows.net/common/oauth2/authorize",
+      "tokenUrl": "https://login.windows.net/common/oauth2/authorize",
+      "scopes": {}
+    }
+  },
+  "security": [
+    {
+      "oauth2_auth": []
+    }
+  ],
+  "tags": []
+}
